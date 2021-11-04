@@ -20,17 +20,16 @@
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" class="form-control" id="name" aria-describedby="enter name"
-                        placeholder="Please enter your name.">
+                        placeholder="Enter your name.">
                 </div>
                 <div class="form-group">
                     <label for="Des">Description:</label>
-                    <textarea class="form-control" id="Des" rows="4"
-                        placeholder="Please enter decription of task to complete."></textarea>
+                    <textarea class="form-control" id="Des" rows="4" placeholder="Enter decription."></textarea>
                 </div>
                 <div class="form-group">
                     <label for="assignedto">Assigned To:</label>
                     <select type="text" class="form-control" id="assignedto">
-                        <option value="" selected disabled>Please select team member name to assign task to.</option>
+                        <option value="" selected disabled>Select assignee.</option>
                         <option>Muhsinah Sims</option>
                         <option>Justin Gonzalez</option>
                         <option>Mario Carrillo</option>
@@ -52,14 +51,16 @@
                         </div>
                     </div>
 
+
                     <!-- Shakera code below -->
                     <div class="form-group col">
                         <label for="status">Status:</label>
                         <select type="text" class="form-control" id="assignedto">
-                            <option value="" selected disabled>Please Select Current Status</option>
-                            <option>In progress</option>
-                            <option>Completed</option>
-                            <option>On hold</option>
+                            <option value="" selected disabled>Select Status</option>
+                            <option>TODO</option>
+                            <option>IN PROGRESS</option>
+                            <option>REVIEW</option>
+                            <option>DONE</option>
                         </select>
                     </div>
                 </div>
@@ -68,8 +69,309 @@
             </form>
         </div>
     </div>
+    <hr>
+
+    <!--BEGINNING OF LIST GROUP-->
+    <div class="card-group" >
+
+
+        <div class="card" style=" border-radius: 40px; background-color: #D6B1A9  ">
+
+            <div class="card-body">
+                <h5 class="card-title">Task 1</h5>
+                <div class="card-block">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" style="border-radius: 15px;" aria-describedby="
+                        enter name" placeholder="Enter your name.">
+                </div>
+                <div class="card-block">
+                    <label for="Des">Description:</label>
+                    <textarea class="form-control" id="Des" rows="4" placeholder="Enter decription."></textarea>
+                </div>
+                <div class="card-block">
+                    <label for="assignedto">Assigned To:</label>
+                    <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+                        <option value="" selected disabled>Please select team member name to assign task to.</option>
+                        <option>Muhsinah Sims</option>
+                        <option>Justin Gonzalez</option>
+                        <option>Mario Carrillo</option>
+                        <option>Janie Morton</option>
+                        <option>Shakera Syeda</option>
+                        <option>Hanah Lewis</option>
+                    </select>
+                    <div class=" row md-col md-outline input-width-post">
+                        <div class="card-block col">
+                            <label for="duedate">Due Date:</label>
+                            <div class="input-group">
+                                <input class="form-control left-border-none" name="duedate" id="duedate" value="">
+<div class=" input-group-text">
+                                <span class="input-group-addon transparent">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Shakera code below -->
+                    <div class="card-block col">
+                        <label for="status">Status:</label>
+                        <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+                            <option value="" selected disabled>Please Select Current Status</option>
+                            <option>In progress</option>
+                            <option>Completed</option>
+                            <option>On hold</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+    </div>
     
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    
+
+
+
+<div class="card" style=" border-radius: 40px; background-color: #D6B1A9  ">
+
+    <div class="card-body">
+        <h5 class="card-title">Task 1</h5>
+        <div class="card-block">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" style="border-radius: 15px;" aria-describedby="
+                enter name" placeholder="Enter your name.">
+        </div>
+        <div class="card-block">
+            <label for="Des">Description:</label>
+            <textarea class="form-control" id="Des" rows="4" placeholder="Enter decription."></textarea>
+        </div>
+        <div class="card-block">
+            <label for="assignedto">Assigned To:</label>
+            <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+                <option value="" selected disabled>Please select team member name to assign task to.</option>
+                <option>Muhsinah Sims</option>
+                <option>Justin Gonzalez</option>
+                <option>Mario Carrillo</option>
+                <option>Janie Morton</option>
+                <option>Shakera Syeda</option>
+                <option>Hanah Lewis</option>
+            </select>
+            <div class=" row md-col md-outline input-width-post">
+                <div class="card-block col">
+                    <label for="duedate">Due Date:</label>
+                    <div class="input-group">
+                        <input class="form-control left-border-none" name="duedate" id="duedate" value="">
+<div class=" input-group-text">
+                        <span class="input-group-addon transparent">
+                            <i class="fa fa-calendar"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Shakera code below -->
+            <div class="card-block col">
+                <label for="status">Status:</label>
+                <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+                    <option value="" selected disabled>Please Select Current Status</option>
+                    <option>In progress</option>
+                    <option>Completed</option>
+                    <option>On hold</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=" card-footer">
+    <small class="text-muted">Last updated 3 mins ago</small>
+</div>
+</div>
+
+
+
+<div class="card" style=" border-radius: 40px; background-color: #D6B1A9  ">
+
+    <div class="card-body">
+        <h5 class="card-title">Task 1</h5>
+        <div class="card-block">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" style="border-radius: 15px;" aria-describedby="
+                enter name" placeholder="Enter your name.">
+        </div>
+        <div class="card-block">
+            <label for="Des">Description:</label>
+            <textarea class="form-control" id="Des" rows="4" placeholder="Enter decription."></textarea>
+        </div>
+        <div class="card-block">
+            <label for="assignedto">Assigned To:</label>
+            <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+                <option value="" selected disabled>Please select team member name to assign task to.</option>
+                <option>Muhsinah Sims</option>
+                <option>Justin Gonzalez</option>
+                <option>Mario Carrillo</option>
+                <option>Janie Morton</option>
+                <option>Shakera Syeda</option>
+                <option>Hanah Lewis</option>
+            </select>
+            <div class=" row md-col md-outline input-width-post">
+                <div class="card-block col">
+                    <label for="duedate">Due Date:</label>
+                    <div class="input-group">
+                        <input class="form-control left-border-none" name="duedate" id="duedate" value="">
+<div class=" input-group-text">
+                        <span class="input-group-addon transparent">
+                            <i class="fa fa-calendar"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Shakera code below -->
+            <div class="card-block col">
+                <label for="status">Status:</label>
+                <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+                    <option value="" selected disabled>Please Select Current Status</option>
+                    <option>In progress</option>
+                    <option>Completed</option>
+                    <option>On hold</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=" card-footer">
+    <small class="text-muted">Last updated 3 mins ago</small>
+</div>
+</div>
+
+
+
+</div> 
+<br />
+<br />
+<!--ROW TO LIST GROUP-->
+<div class="card-group " style="width: 50.5em;margin:0 auto;">
+
+
+    <div class="card" style=" border-radius: 40px; background-color: #D6B1A9  ">
+
+        <div class="card-body">
+            <h5 class="card-title">Task 1</h5>
+            <div class="card-block">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" style="border-radius: 15px;" aria-describedby="
+                    enter name" placeholder="Enter your name.">
+            </div>
+            <div class="card-block">
+                <label for="Des">Description:</label>
+                <textarea class="form-control" id="Des" rows="4" placeholder="Enter decription."></textarea>
+            </div>
+            <div class="card-block">
+                <label for="assignedto">Assigned To:</label>
+                <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+                    <option value="" selected disabled>Please select team member name to assign task to.</option>
+                    <option>Muhsinah Sims</option>
+                    <option>Justin Gonzalez</option>
+                    <option>Mario Carrillo</option>
+                    <option>Janie Morton</option>
+                    <option>Shakera Syeda</option>
+                    <option>Hanah Lewis</option>
+                </select>
+                <div class=" row md-col md-outline input-width-post">
+                    <div class="card-block col">
+                        <label for="duedate">Due Date:</label>
+                        <div class="input-group">
+                            <input class="form-control left-border-none" name="duedate" id="duedate" value="">
+<div class=" input-group-text">
+                            <span class="input-group-addon transparent">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Shakera code below -->
+                <div class="card-block col">
+                    <label for="status">Status:</label>
+                    <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+                        <option value="" selected disabled>Please Select Current Status</option>
+                        <option>In progress</option>
+                        <option>Completed</option>
+                        <option>On hold</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="card" style=" border-radius: 40px; background-color: #D6B1A9  ">
+
+<div class="card-body">
+    <h5 class="card-title">Task 1</h5>
+    <div class="card-block">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" style="border-radius: 15px;" aria-describedby="
+            enter name" placeholder="Enter your name.">
+    </div>
+    <div class="card-block">
+        <label for="Des">Description:</label>
+        <textarea class="form-control" id="Des" rows="4" placeholder="Enter decription."></textarea>
+    </div>
+    <div class="card-block">
+        <label for="assignedto">Assigned To:</label>
+        <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+            <option value="" selected disabled>Please select team member name to assign task to.</option>
+            <option>Muhsinah Sims</option>
+            <option>Justin Gonzalez</option>
+            <option>Mario Carrillo</option>
+            <option>Janie Morton</option>
+            <option>Shakera Syeda</option>
+            <option>Hanah Lewis</option>
+        </select>
+        <div class=" row md-col md-outline input-width-post">
+            <div class="card-block col">
+                <label for="duedate">Due Date:</label>
+                <div class="input-group">
+                    <input class="form-control left-border-none" name="duedate" id="duedate" value="">
+<div class=" input-group-text">
+                    <span class="input-group-addon transparent">
+                        <i class="fa fa-calendar"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- Shakera code below -->
+        <div class="card-block col">
+            <label for="status">Status:</label>
+            <select type="text" class="form-control" id="assignedto" style="border-radius: 15px;">
+                <option value="" selected disabled>Please Select Current Status</option>
+                <option>In progress</option>
+                <option>Completed</option>
+                <option>On hold</option>
+            </select>
+        </div>
+    </div>
+</div>
+</div>
+<div class=" card-footer">
+<small class="text-muted">Last updated 3 mins ago</small>
+</div>
+</div>
+
+
+
+</div>
+
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
